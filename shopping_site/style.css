@@ -1,0 +1,47 @@
+
+#banner_img{
+    background: url("imgs/intro-bg_1.jpg") no-repeat center;
+    padding-top:50px;
+    background-size: cover;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.bg-dark{
+    background-color: #1c1c1c!important;
+}
+
+.banner-content{
+    padding-top:6%;
+    padding-bottom: 5%;
+    margin-top:10%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    padding:10px 0;
+    background-color: #1c1c1c;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 200px;
+}
+::-webkit-scrollbar{
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #1c1c1c;
+}
+
+::-webkit-scrollbar-track{
+    background-color:transparent;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
